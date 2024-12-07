@@ -1,6 +1,6 @@
 import axios from "../components/api";
 
-const REST_API_BASE_URl = 'http://localhost:8080/donations';
+const REST_API_BASE_URl = 'https://foodwastemanagementsystem66.up.railway.app';
 
 export const listDonations=()=>axios.get(REST_API_BASE_URl);
 
